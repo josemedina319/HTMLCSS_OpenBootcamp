@@ -1,0 +1,19 @@
+.galeria{
+
+    background-color: azure;
+    width: 100vw;
+    opacity: 1;
+    display: flex;
+    align-content: center;
+    overflow: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    gap:15px;
+}
+
+img:hover{
+
+    opacity: 0.4;
+    cursor: pointer;
+}
