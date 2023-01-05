@@ -1,0 +1,20 @@
+.contenedor{
+    border: 1px solid green;
+    width: 100%;
+   display: flex;
+   align-items: center;
+   height: 400px;
+   justify-content: space-around;
+   flex-wrap: wrap;
+}
+
+.hijo{
+
+    background-color: blue;
+    border: 1px solid black;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+p{color: white;}
