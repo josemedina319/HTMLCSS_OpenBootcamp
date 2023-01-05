@@ -1,0 +1,47 @@
+body{
+      background-color: red;
+      margin: 0;
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+    }
+
+    .btn-modern{
+
+        color:white;
+        background-color: cornflowerblue;
+        padding: 10px;
+        height: 40px;
+        border: none;
+        border-radius: 4px;
+        font-size: 16px;
+        cursor: pointer;
+        font-weight: 500;
+        transition: 0.4s;
+        position: relative;
+
+    }
+
+    .btn-modern:hover{
+
+       background-color: darkblue;
+        box-shadow: 4px 4px 2px blueviolet;
+    }
+    .btn-modern span{
+        position: absolute;
+        top:-80px;
+        background-color:gainsboro;
+        width:200px;
+        color:#333;
+        left:-45%;
+        opacity: 0;
+        transition: 0.1s;
+        border: none;
+        border-radius: 5px;
+    }
+    .btn-modern:hover span{
+              opacity: 1;
+    }
