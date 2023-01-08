@@ -1,0 +1,9 @@
+.col-xs-6,.col-xs-12{background-color:aqua;}
+.row div{margin-top:0.25em;}
+.row div{border: 1px solid black;}
+
+.col-md-6,.col-md-3{background-color: #7fffd4;}
+.col-sm-3,.col-sm-6{background-color: darkslategrey;}
+.col-lg{background-color: blue;}
+.col-xl{background-color: brown;}
+.col-xxl{background-color: darkgoldenrod;}
